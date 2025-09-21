@@ -1,0 +1,10 @@
+{
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "build": "npm run --prefix client build && npm run --prefix server build",
+    "start": "npm run --prefix server start:prod"
+  }
+}
