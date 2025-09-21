@@ -1,6 +1,6 @@
 {
   "scripts": {
     "build": "npm run --prefix client build && npm run --prefix server build",
-    "start:prod": "npm run --prefix server start"
+    "start": "npm run --prefix server start"
   }
 }
